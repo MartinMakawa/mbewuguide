@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Django stuff
+*.sqlite3
+*.log
+staticfiles/
+media/
+db.sqlite3
+
+# Environment
+.env
+venv/
+ENV/
+env/
+(env)/
+ENV*/ 
+*.egg-info/
+
+# Migrations (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# VS Code settings
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
