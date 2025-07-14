@@ -16,7 +16,7 @@ urlpatterns = [
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),  # Login
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),  # Refresh
     path('api/community/', include('community.urls')),
-
+    path('api/mbewubot/', include('mbewubot.urls')),
 
 ]
 
